@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Apprentissages Critiques - Lucas Lemaitre</title>
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #050505;
+      color: #fff;
+    }
+
+    .ac-container {
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 20px;
+    }
+
+    .ac-card {
+      background-color: #0a0a0a;
+      border-left: 2px solid #b824ff;
+      padding: 30px;
+      margin-bottom: 50px;
+      border-radius: 0 10px 10px 0;
+      position: relative;
+    }
+
+    .ac-badge {
+      display: inline-block;
+      border: 1px solid #271133;
+      background-color: #13051a;
+      color: #d455ff;
+      padding: 5px 15px;
+      border-radius: 50px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      margin-bottom: 20px;
+      letter-spacing: 1px;
+    }
+
+    .ac-title {
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin-bottom: 30px;
+      line-height: 1.3;
+    }
+
+    .ac-list {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .ac-list li {
+      margin-bottom: 20px;
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #cccccc;
+      padding-left: 25px;
+      position: relative;
+    }
+
+    .ac-list .chevron {
+      color: #b824ff;
+      position: absolute;
+      left: 0;
+      top: 0;
+      font-weight: bold;
+    }
+
+    .ac-list strong {
+      color: #ffffff;
+    }
+
+    .ac-image-box {
+      background-color: #111;
+      border: 1px solid #271133;
+      border-radius: 15px;
+      padding: 20px;
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    .ac-image-title {
+      color: #888;
+      font-size: 0.9rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+      margin-bottom: 15px;
+    }
+
+    .ac-image-box img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      background-color: #fff;
+    }
+
+    .ac-image-caption {
+      color: #b824ff;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.9rem;
+    }
+
+    .back-btn {
+      margin-bottom: 30px;
+      display: inline-block;
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="main">
+    <div class="ac-container">
+
+      <a href="index.html" class="btn btn-outline-light back-btn"><i class="bi bi-arrow-left"></i> Retour à
+        l'accueil</a>
+
+      <h1 class="mb-5 text-center" style="font-weight: 700;">Apprentissages Critiques</h1>
+
+
+      <div class="ac-card" id="AC1101">
+        <div class="ac-badge">AC11.01 // Administrer</div>
+        <h2 class="ac-title">Maîtriser les lois fondamentales de l’électricité afin d’intervenir sur des équipements de
+          réseaux et télécommunications</h2>
+
+        <ul class="ac-list">
+          <li><span class="chevron">»</span> <strong>Ce que j'ai fait :</strong> Mesure de tensions, courants et
+            résistances sur des circuits simples en travaux pratiques.</li>
+          <li><span class="chevron">»</span> <strong>Pourquoi je l'ai fait :</strong> Pour vérifier la loi d'Ohm dans
+            des conditions réelles.</li>
+          <li><span class="chevron">»</span> <strong>Comment je l'ai fait :</strong> Utilisation de générateurs de
+            tension, multimètres et platines d'essai (breadboards).</li>
+          <li><span class="chevron">»</span> <strong>Mes difficultés :</strong> Bien calibrer les appareils de mesure et
+            éviter les courts-circuits.</li>
+          <li><span class="chevron">»</span> <strong>Ce que j'en ai appris :</strong> L'importance de la précision des
+            mesures et la réalité des pertes dans les composants physiques.</li>
+          <li><span class="chevron">»</span> <strong>Ce que je ferais autrement :</strong> Vérifier systématiquement les
+            calculs théoriques avant de faire le montage pratique.</li>
+        </ul>
+      </div>
+
+      <div class="ac-card" id="AC1102">
+        <div class="ac-badge">AC11.02 // Administrer</div>
+        <h2 class="ac-title">Comprendre l'architecture et les fondements des systèmes numériques, les principes du
+          codage de l'information, des communications et de l'Internet</h2>
+
+        <ul class="ac-list">
+          <li><span class="chevron">»</span> <strong>Ce que j'ai fait :</strong> Exercices de conversion de bases
+            (binaire, hexadécimal) et simulation de portes logiques.</li>
+          <li><span class="chevron">»</span> <strong>Pourquoi je l'ai fait :</strong> Pour comprendre comment la donnée
+            est traitée et transmise au niveau matériel par les équipements réseau.</li>
+          <li><span class="chevron">»</span> <strong>Comment je l'ai fait :</strong> Utilisation de logiciels de
+            simulation logique et calculs manuels sur papier.</li>
+          <li><span class="chevron">»</span> <strong>Mes difficultés :</strong> La conversion rapide de grandes adresses
+            IP et de masques de sous-réseaux.</li>
+          <li><span class="chevron">»</span> <strong>Ce que j'en ai appris :</strong> La base du fonctionnement des
+            trames réseau et du calcul d'adressage IP.</li>
+          <li><span class="chevron">»</span> <strong>Ce que je ferais autrement :</strong> M'entraîner davantage sur le
+            calcul mental binaire pour être plus rapide lors des configurations.</li>
+        </ul>
+      </div>
+
+      <div class="ac-card" id="AC1103">
+        <div class="ac-badge">AC11.03 // Administrer</div>
+        <h2 class="ac-title">Configurer les fonctions de base du réseau local</h2>
+
+        <ul class="ac-list">
+          <li><span class="chevron">»</span> <strong>Ce que j'ai fait :</strong> Configuration de commutateurs (switchs)
+            pour créer un réseau local fonctionnel.</li>
+          <li><span class="chevron">»</span> <strong>Pourquoi je l'ai fait :</strong> Pour permettre la communication
+            entre plusieurs postes de travail au sein d'une même infrastructure.</li>
+          <li><span class="chevron">»</span> <strong>Comment je l'ai fait :</strong> Connexion en console aux
+            équipements Cisco et utilisation de l'interface en ligne de commande (CLI) pour définir les VLANs.</li>
+          <li><span class="chevron">»</span> <strong>Mes difficultés :</strong> Mémoriser les différentes commandes
+            Cisco (mode utilisateur, privilégié, configuration globale).</li>
+          <li><span class="chevron">»</span> <strong>Ce que j'en ai appris :</strong> La segmentation logique d'un
+            réseau physique à travers les VLANs améliore la sécurité et les performances.</li>
+          <li><span class="chevron">»</span> <strong>Ce que je ferais autrement :</strong> Tenir un carnet de commandes
+            pour retrouver plus rapidement la syntaxe des configurations fréquentes.</li>
+        </ul>
+      </div>
+
+      <div class="ac-card" id="AC1104">
+        <div class="ac-badge">AC11.04 // Administrer</div>
+        <h2 class="ac-title">Maîtriser les rôles et les principes fondamentaux des systèmes d’exploitation afin
+          d’interagir avec ceux-ci pour la configuration et l'administration des réseaux et services fournis</h2>
+
+        <ul class="ac-list">
+          <li><span class="chevron">»</span> <strong>Ce que j'ai fait :</strong> Installation et configuration de
+            machines virtuelles sous Linux (Debian) et Windows Server.</li>
+          <li><span class="chevron">»</span> <strong>Pourquoi je l'ai fait :</strong> Pour maîtriser les environnements
+            qui hébergent la plupart des services réseau d'une entreprise.</li>
+          <li><span class="chevron">»</span> <strong>Comment je l'ai fait :</strong> Utilisation d'hyperviseurs et
+            configuration des interfaces réseau, utilisateurs et permissions en ligne de commande.</li>
+          <li><span class="chevron">»</span> <strong>Mes difficultés :</strong> L'adaptation aux commandes Bash sous
+            Linux comparé à l'interface graphique de Windows.</li>
+          <li><span class="chevron">»</span> <strong>Ce que j'en ai appris :</strong> La structure du système de
+            fichiers Linux et l'importance de la gestion stricte des droits (chmod/chown).</li>
+          <li><span class="chevron">»</span> <strong>Ce que je ferais autrement :</strong> Créer des scripts
+            d'automatisation plus tôt pour gagner du temps sur les installations répétitives.</li>
+        </ul>
+      </div>
+
+      <div class="ac-card" id="AC1105">
+        <div class="ac-badge">AC11.05 // Administrer</div>
+        <h2 class="ac-title">Identifier les dysfonctionnements du réseau local et savoir les signaler</h2>
+
+        <ul class="ac-list">
+          <li><span class="chevron">»</span> <strong>Ce que j'ai fait :</strong> Résolution de pannes réseau simulées
+            (câble débranché, mauvaise IP, problème de routage).</li>
+          <li><span class="chevron">»</span> <strong>Pourquoi je l'ai fait :</strong> Savoir diagnostiquer rapidement un
+            problème est essentiel pour maintenir la continuité de service.</li>
+          <li><span class="chevron">»</span> <strong>Comment je l'ai fait :</strong> Utilisation des commandes de
+            diagnostic (ping, traceroute, ipconfig/ifconfig) et analyse de trames avec Wireshark.</li>
+          <li><span class="chevron">»</span> <strong>Mes difficultés :</strong> Isoler la source exacte du problème
+            quand plusieurs équipements sont en cascade.</li>
+          <li><span class="chevron">»</span> <strong>Ce que j'en ai appris :</strong> Une méthodologie de dépannage
+            étape par étape (du niveau 1 physique au niveau 7 applicatif du modèle OSI) est indispensable.</li>
+          <li><span class="chevron">»</span> <strong>Ce que je ferais autrement :</strong> Toujours commencer par
+            vérifier la couche physique (câblage) avant de chercher des erreurs de configuration.</li>
+        </ul>
+      </div>
+
+      <div class="ac-card" id="AC1106">
+        <div class="ac-badge">AC11.06 // Administrer</div>
+        <h2 class="ac-title">Installer un poste client, expliquer la procédure mise en place</h2>
+
+        <ul class="ac-list">
+          <li><span class="chevron">»</span> <strong>Ce que j'ai fait :</strong> Déploiement d'un poste de travail
+            complet pour un nouvel utilisateur.</li>
+          <li><span class="chevron">»</span> <strong>Pourquoi je l'ai fait :</strong> Répondre à un besoin courant en
+            entreprise lors de l'arrivée d'un collaborateur.</li>
+          <li><span class="chevron">»</span> <strong>Comment je l'ai fait :</strong> Installation de l'OS, configuration
+            réseau IP fixe/DHCP, intégration au domaine et documentation de la procédure.</li>
+          <li><span class="chevron">»</span> <strong>Mes difficultés :</strong> Assurer la compatibilité des pilotes
+            matériels lors de l'installation.</li>
+          <li><span class="chevron">»</span> <strong>Ce que j'en ai appris :</strong> Le fait d'être rigoureux et
+            de rédiger une documentation claire pour que d'autres personnes puissent reproduire l'action.</li>
+          <li><span class="chevron">»</span> <strong>Ce que je ferais autrement :</strong> Utiliser des images système
+            pré-configurées pour automatiser le déploiement de plusieurs postes.</li>
+        </ul>
+      </div>
+
+      <div class="ac-card" id="AC1201">
+        <div class="ac-badge">AC12.01 // Connecter</div>
+        <h2 class="ac-title">Mesurer, analyser et commenter les signaux</h2>
+
+        <ul class="ac-list">
+          <li><span class="chevron">»</span> <strong>Ce que j'ai fait :</strong> J'ai branché des générateurs de signaux
+            à des oscilloscopes pour capturer, observer et extraire les grandeurs physiques de diverses ondes.</li>
+          <li><span class="chevron">»</span> <strong>Pourquoi je l'ai fait :</strong> Pour confronter les concepts
+            mathématiques abstraits à la réalité physique des signaux électriques qui transportent la donnée.</li>
+          <li><span class="chevron">»</span> <strong>Comment je l'ai fait :</strong> En mobilisant les formules du
+            module R1.13 (Mathématiques du signal) afin de calculer fréquence, période, tension crête à crête.</li>
+          <li><span class="chevron">»</span> <strong>Mes difficultés :</strong> Régler correctement la synchronisation
+            (Trigger) de l'oscilloscope sur des signaux bruités pour stabiliser l'affichage à l'écran.</li>
+          <li><span class="chevron">»</span> <strong>Ce que j'en ai appris :</strong> Qu'aucun signal réel n'est parfait
+            et que la distorsion physique impacte directement la qualité de la liaison informatique.</li>
+          <li><span class="chevron">»</span> <strong>Ce que je ferais autrement :</strong> Prendre des notes
+            systématiques et rigoureuses des échelles de l'appareil (Volts/Div) pour accélérer la rédaction du
+            compte-rendu de TP.</li>
+        </ul>
+      </div>
+
+      <div class="ac-card" id="AC1202">
+        <div class="ac-badge">AC12.02 // Connecter</div>
+        <h2 class="ac-title">Caractériser des systèmes de transmissions élémentaires et découvrir la modélisation
+          mathématique de leur fonctionnement</h2>
+
+        <ul class="ac-list">
+          <li><span class="chevron">»</span> <strong>Ce que j'ai fait :</strong> Étude des techniques de modulation
+            d'amplitude et de fréquence.</li>
+          <li><span class="chevron">»</span> <strong>Pourquoi je l'ai fait :</strong> Comprendre comment une information
+            numérique est transformée pour voyager sur un support analogique (cuivre ou ondes).</li>
+          <li><span class="chevron">»</span> <strong>Comment je l'ai fait :</strong> Utilisation de maquettes de
+            télécommunication et de logiciels de simulation de spectre.</li>
+          <li><span class="chevron">»</span> <strong>Mes difficultés :</strong> La compréhension des transformées de
+            Fourier pour passer du domaine temporel au domaine fréquentiel.</li>
+          <li><span class="chevron">»</span> <strong>Ce que j'en ai appris :</strong> Les limites des supports de
+            transmission en termes de bande passante et la sensibilité aux interférences.</li>
+          <li><span class="chevron">»</span> <strong>Ce que je ferais autrement :</strong> Mieux lier les résultats des
+            oscilloscopes avec la théorie mathématique en temps réel.</li>
+        </ul>
+      </div>
+
+      <div class="ac-card" id="AC1203">
+        <div class="ac-badge">AC12.03 // Connecter</div>
+        <h2 class="ac-title">Déployer des supports de transmission</h2>
+
+        <ul class="ac-list">
+          <li><span class="chevron">»</span> <strong>Ce que j'ai fait :</strong> Réalisation de câblage cuivre
+            (sertissage de prises RJ45) et tests de continuité.</li>
+          <li><span class="chevron">»</span> <strong>Pourquoi je l'ai fait :</strong> Le support physique est la base de
+            toute communication réseau, un mauvais câblage entraîne des pertes de données.</li>
+          <li><span class="chevron">»</span> <strong>Comment je l'ai fait :</strong> Utilisation de pinces à sertir, de
+            testeurs de câbles et respect des normes de câblage (T568A / T568B).</li>
+          <li><span class="chevron">»</span> <strong>Mes difficultés :</strong> Le placement correct des fils de cuivre
+            dans l'embout RJ45 avant le sertissage.</li>
+          <li><span class="chevron">»</span> <strong>Ce que j'en ai appris :</strong> L'importance du respect des normes
+            pour éviter la diaphonie et garantir un débit optimal.</li>
+          <li><span class="chevron">»</span> <strong>Ce que je ferais autrement :</strong> Prendre plus de temps pour
+            dénuder proprement le câble afin de ne pas fragiliser les brins internes.</li>
+        </ul>
+      </div>
+
+      <div class="ac-card" id="AC1204">
+        <div class="ac-badge">AC12.04 // Connecter</div>
+        <h2 class="ac-title">Connecter les systèmes de ToIP</h2>
+
+        <ul class="ac-list">
+          <li><span class="chevron">»</span> <strong>Ce que j'ai fait :</strong> Mise en place de téléphones IP et
+            configuration d'un serveur de communication basique.</li>
+          <li><span class="chevron">»</span> <strong>Pourquoi je l'ai fait :</strong> La téléphonie sur IP (ToIP)
+            s'intègre directement au réseau informatique de l'entreprise et remplace l'analogique.</li>
+          <li><span class="chevron">»</span> <strong>Comment je l'ai fait :</strong> Configuration de VLANs voix sur des
+            switchs et assignation d'extensions SIP via l'interface du serveur ou Packet Tracer.</li>
+          <li><span class="chevron">»</span> <strong>Mes difficultés :</strong> Séparer correctement le trafic voix
+            (sensible à la latence) du trafic données (Data) sur le même réseau physique.</li>
+          <li><span class="chevron">»</span> <strong>Ce que j'en ai appris :</strong> Les bases de la signalisation SIP
+            et la nécessité de prioriser les paquets voix (QoS).</li>
+          <li><span class="chevron">»</span> <strong>Ce que je ferais autrement :</strong> Analyser plus en détail les
+            trames SIP avec Wireshark pour bien voir l'établissement et la coupure de l'appel.</li>
+        </ul>
+      </div>
+
+      <div class="ac-card" id="AC1205">
+        <div class="ac-badge">AC12.05 // Connecter</div>
+        <h2 class="ac-title">Communiquer avec un tiers (client, collaborateur...) et adapter son discours et sa langue à
+          son interlocuteur</h2>
+
+        <ul class="ac-list">
+          <li><span class="chevron">»</span> <strong>Ce que j'ai fait :</strong> Présentations orales techniques et
+            rédaction de comptes-rendus en français et en anglais.</li>
+          <li><span class="chevron">»</span> <strong>Pourquoi je l'ai fait :</strong> Un technicien réseau doit savoir
+            vulgariser son travail pour des clients et utiliser des documentations techniques internationales.</li>
+          <li><span class="chevron">»</span> <strong>Comment je l'ai fait :</strong> Recherches documentaires, création
+            de diaporamas et jeux de rôle simulant une relation client-fournisseur.</li>
+          <li><span class="chevron">»</span> <strong>Mes difficultés :</strong> Trouver le bon équilibre entre
+            vocabulaire trop technique et explications trop simplistes.</li>
+          <li><span class="chevron">»</span> <strong>Ce que j'en ai appris :</strong> La communication non verbale et la
+            clarté du support visuel sont tout aussi importantes que le discours lui-même.</li>
+          <li><span class="chevron">»</span> <strong>Ce que je ferais autrement :</strong> Faire plus de répétitions
+            chronométrées avant les oraux pour mieux gérer mon temps de parole.</li>
+        </ul>
+      </div>
+
+      <div class="ac-card" id="AC1301">
+        <div class="ac-badge">AC13.01 // Programmer</div>
+        <h2 class="ac-title">Utiliser un système informatique et ses outils</h2>
+
+        <ul class="ac-list">
+          <li><span class="chevron">»</span> <strong>Ce que j'ai fait :</strong> Prise en main des outils de
+            l'environnement de travail de l'IUT (Linux, outils bureautiques, messagerie).</li>
+          <li><span class="chevron">»</span> <strong>Pourquoi je l'ai fait :</strong> Être autonome et efficace sur son
+            poste de travail est le prérequis de toute production technique.</li>
+          <li><span class="chevron">»</span> <strong>Comment je l'ai fait :</strong> Configuration de mon espace de
+            travail, utilisation des raccourcis clavier et gestion de mes fichiers sur le réseau.</li>
+          <li><span class="chevron">»</span> <strong>Mes difficultés :</strong> L'adaptation au premier abord à un
+            environnement hybride Windows/Linux.</li>
+          <li><span class="chevron">»</span> <strong>Ce que j'en ai appris :</strong> Une bonne organisation des
+            répertoires et la maîtrise des outils de recherche de fichiers font gagner un temps précieux.</li>
+          <li><span class="chevron">»</span> <strong>Ce que je ferais autrement :</strong> Mettre en place dès le
+            premier jour un système de sauvegarde automatique de mes documents scolaires.</li>
+        </ul>
+      </div>
+
+      <div class="ac-card" id="AC1302">
+        <div class="ac-badge">AC13.02 // Programmer</div>
+        <h2 class="ac-title">Lire, exécuter, corriger et modifier un programme</h2>
+
+        <ul class="ac-list">
+          <li><span class="chevron">»</span> <strong>Ce que j'ai fait :</strong> Analyse et débogage de scripts Python
+            fournis par les enseignants.</li>
+          <li><span class="chevron">»</span> <strong>Pourquoi je l'ai fait :</strong> Il est souvent nécessaire de
+            comprendre et d'adapter un code existant plutôt que de tout réécrire de zéro.</li>
+          <li><span class="chevron">»</span> <strong>Comment je l'ai fait :</strong> Exécution du code pas-à-pas, ajout
+            de fonctions d'affichage (print) et lecture de la documentation.</li>
+          <li><span class="chevron">»</span> <strong>Mes difficultés :</strong> Comprendre la logique d'un code écrit
+            par quelqu'un d'autre, surtout s'il est peu commenté.</li>
+          <li><span class="chevron">»</span> <strong>Ce que j'en ai appris :</strong> L'importance capitale d'indenter
+            correctement et de nommer ses variables de manière explicite.</li>
+          <li><span class="chevron">»</span> <strong>Ce que je ferais autrement :</strong> Lire le code en entier avant
+            d'essayer de le modifier pour en saisir l'architecture globale.</li>
+        </ul>
+      </div>
+
+      <div class="ac-card" id="AC1303">
+        <div class="ac-badge">AC13.03 // Programmer</div>
+        <h2 class="ac-title">Traduire un algorithme, dans un langage et pour un environnement donné</h2>
+
+        <ul class="ac-list">
+          <li><span class="chevron">»</span> <strong>Ce que j'ai fait :</strong> Création de petits programmes en Python
+            (calcul de masques IP, jeux basiques).</li>
+          <li><span class="chevron">»</span> <strong>Pourquoi je l'ai fait :</strong> Développer un esprit logique et
+            apprendre à automatiser des tâches mathématiques ou réseaux répétitives.</li>
+          <li><span class="chevron">»</span> <strong>Comment je l'ai fait :</strong> Rédaction de l'algorithme sur
+            papier, puis traduction en code Python en utilisant des boucles et des conditions.</li>
+          <li><span class="chevron">»</span> <strong>Mes difficultés :</strong> Traduire un concept mathématique
+            abstrait en instructions informatiques strictes.</li>
+          <li><span class="chevron">»</span> <strong>Ce que j'en ai appris :</strong> L'ordinateur ne fait qu'exécuter
+            ce qu'on lui dit : la moindre erreur de logique entraîne un bug.</li>
+          <li><span class="chevron">»</span> <strong>Ce que je ferais autrement :</strong> Faire des schémas
+            algorithmiques plus détaillés avant de commencer à taper la première ligne de code.</li>
+        </ul>
+      </div>
+
+      <div class="ac-card" id="AC1304">
+        <div class="ac-badge">AC13.04 // Programmer</div>
+        <h2 class="ac-title">Connaître l’architecture et les technologies d’un site Web</h2>
+
+        <ul class="ac-list">
+          <li><span class="chevron">»</span> <strong>Ce que j'ai fait :</strong> Développement de ce site web portfolio
+            en HTML et CSS.</li>
+          <li><span class="chevron">»</span> <strong>Pourquoi je l'ai fait :</strong> Comprendre l'architecture
+            client-serveur web et savoir présenter des informations au format numérique de façon esthétique.</li>
+          <li><span class="chevron">»</span> <strong>Comment je l'ai fait :</strong> Utilisation de balises sémantiques
+            HTML5, de règles de style CSS et intégration de bibliothèques visuelles.</li>
+          <li><span class="chevron">»</span> <strong>Mes difficultés :</strong> Rendre le site 'responsive' pour qu'il
+            s'affiche correctement sur PC et sur smartphone.</li>
+          <li><span class="chevron">»</span> <strong>Ce que j'en ai appris :</strong> La séparation claire entre le fond
+            (HTML) et la forme (CSS) est essentielle pour la maintenance d'un site.</li>
+          <li><span class="chevron">»</span> <strong>Ce que je ferais autrement :</strong> Penser la conception visuelle
+            (maquette) en amont avant de se lancer dans le code CSS.</li>
+        </ul>
+      </div>
+
+      <div class="ac-card" id="AC1305">
+        <div class="ac-badge">AC13.05 // Programmer</div>
+        <h2 class="ac-title">Choisir les mécanismes de gestion de données adaptés au développement de l’outil et
+          argumenter ses choix</h2>
+
+        <ul class="ac-list">
+          <li><span class="chevron">»</span> <strong>Ce que j'ai fait :</strong> Utilisation de fichiers JSON et CSV
+            pour stocker et lire des données avec Python.</li>
+          <li><span class="chevron">»</span> <strong>Pourquoi je l'ai fait :</strong> Toute application utile a besoin
+            de sauvegarder des données de manière persistante et structurée.</li>
+          <li><span class="chevron">»</span> <strong>Comment je l'ai fait :</strong> Importation des modules adaptés en
+            Python et écriture de scripts pour lire, filtrer et modifier des fichiers de données.</li>
+          <li><span class="chevron">»</span> <strong>Mes difficultés :</strong> Gérer les erreurs de formatage dans les
+            fichiers (virgules manquantes, erreurs d'encodage UTF-8).</li>
+          <li><span class="chevron">»</span> <strong>Ce que j'en ai appris :</strong> L'importance de valider les
+            données en entrée avant de les traiter dans un programme.</li>
+          <li><span class="chevron">»</span> <strong>Ce que je ferais autrement :</strong> Utiliser des outils de
+            validation de format (comme les validateurs JSON en ligne) lors du développement.</li>
+        </ul>
+      </div>
+
+      <div class="ac-card" id="AC1306">
+        <div class="ac-badge">AC13.06 // Programmer</div>
+        <h2 class="ac-title">S’intégrer dans un environnement propice au développement et au travail collaboratif</h2>
+
+        <ul class="ac-list">
+          <li><span class="chevron">»</span> <strong>Ce que j'ai fait :</strong> Utilisation de Git et GitHub pour gérer
+            les versions de mes projets.</li>
+          <li><span class="chevron">»</span> <strong>Pourquoi je l'ai fait :</strong> Le développement moderne se fait
+            en équipe et nécessite des outils pour suivre les modifications sans écraser le travail des autres.</li>
+          <li><span class="chevron">»</span> <strong>Comment je l'ai fait :</strong> Utilisation des commandes git
+            (commit, push, pull, branch) au fil de mon avancement.</li>
+          <li><span class="chevron">»</span> <strong>Mes difficultés :</strong> Comprendre le concept des branches et la
+            gestion des conflits lorsqu'on modifie le même fichier.</li>
+          <li><span class="chevron">»</span> <strong>Ce que j'en ai appris :</strong> Git est un outil puissant de
+            sauvegarde et de collaboration, indispensable dans le milieu professionnel.</li>
+          <li><span class="chevron">»</span> <strong>Ce que je ferais autrement :</strong> Faire des 'commits' beaucoup
+            plus réguliers et avec des messages clairs plutôt que des gros commits ponctuels.</li>
+        </ul>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
